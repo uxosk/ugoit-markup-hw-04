@@ -614,7 +614,7 @@ address .list {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.cover-text:focus {
+.page-link:focus .cover-text {
   transform: translateY(0%);
 }
 
