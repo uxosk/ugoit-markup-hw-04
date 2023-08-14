@@ -106,7 +106,8 @@ address .list {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-
+  position: relative;
+  color: #404bbf;
 }
 
 .logo-studio {
