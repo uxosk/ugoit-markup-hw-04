@@ -106,7 +106,7 @@ address .list {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .logo-studio {
@@ -151,7 +151,7 @@ address .list {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
