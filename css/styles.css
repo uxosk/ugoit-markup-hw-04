@@ -83,8 +83,7 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  position: relative;
-  color: #404bbf;
+
 }
 
 .header-nav .list {
@@ -139,8 +138,9 @@ address .list {
   font-style: normal;
   font-weight: 500;
   line-height: 24px;
-
   letter-spacing: 0.32px;
+  position: relative;
+  color: #404bbf;
 }
 
 
