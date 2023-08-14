@@ -133,6 +133,17 @@ address .list {
   color: #404bbf;
 }
 
+.line-portfolio::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .header-link-menu {
   color: var(--navyblue, #2E2F42);
   font-family: Roboto;
