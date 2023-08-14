@@ -144,6 +144,16 @@ address .list {
   border-radius: 2px;
 }
 
+.current-studio::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+}
+
 .header-link-menu {
   color: var(--navyblue, #2E2F42);
   font-family: Roboto;
@@ -152,7 +162,7 @@ address .list {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.32px;
-
+  position: relative;
 }
 
 
